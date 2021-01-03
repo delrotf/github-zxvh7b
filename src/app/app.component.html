@@ -1,45 +1,45 @@
 <div class="container-fluid ">
-    <app-banner></app-banner>
-    <div #tabset class="d-print-none">
-        <ngb-tabset type="pills" justify="justified" (tabChange)="onTabChange()">
-            <!-- <ngb-tab title="About"> -->
-            <ngb-tab>
-                <ng-template ngbTabTitle><i class="far fa-user"></i> About</ng-template>
-                <ng-template ngbTabContent>
-                    <app-profile></app-profile>
-                    <app-skills></app-skills>
-                    <app-courses></app-courses>
-                </ng-template>
-            </ngb-tab>
-            <ngb-tab>
-                <ng-template ngbTabTitle><i class="far fa-calendar-check"></i> Projects</ng-template>
-                <ng-template ngbTabContent>
-                    <app-projects-md class="d-md-none"></app-projects-md>
-                    <app-projects class="d-none d-md-block"></app-projects>
-                </ng-template>
-            </ngb-tab>
-            <ngb-tab>
-                <ng-template ngbTabTitle><i class="fab fa-black-tie"></i> E History</ng-template>
-                <ng-template ngbTabContent>
-                    <app-career-history></app-career-history>
-                </ng-template>
-            </ngb-tab>
-            <ngb-tab>
-                <ng-template ngbTabTitle><i class="far fa-address-card"></i> Contact and Basic Info</ng-template>
-                <ng-template ngbTabContent>
-                    <app-contact></app-contact>
-                </ng-template>
-            </ngb-tab>
-        </ngb-tabset>
-    </div>
-    <div class="d-none d-print-block">
-        <div class="row">
-            <app-profile class="col-7"></app-profile>
-            <app-contact class="col-5"></app-contact>
-        </div>
-        <app-skills></app-skills>
-        <app-courses></app-courses>
-        <app-projects-md></app-projects-md>
-        <app-career-history></app-career-history>
-    </div>
+	<app-banner></app-banner>
+	<div #tabset class="d-print-none">
+		<ngb-tabset type="pills" justify="justified" (tabChange)="onTabChange()">
+			<!-- <ngb-tab title="About"> -->
+			<ngb-tab>
+				<ng-template ngbTabTitle><i class="far fa-user"></i> About</ng-template>
+				<ng-template ngbTabContent>
+					<app-profile></app-profile>
+					<app-skills></app-skills>
+					<app-courses></app-courses>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab>
+				<ng-template ngbTabTitle><i class="far fa-calendar-check"></i> Projects</ng-template>
+				<ng-template ngbTabContent>
+					<app-projects-md class="d-md-none"></app-projects-md>
+					<app-projects class="d-none d-md-block"></app-projects>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab>
+				<ng-template ngbTabTitle><i class="fab fa-black-tie"></i> Employment History</ng-template>
+				<ng-template ngbTabContent>
+					<app-career-history></app-career-history>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab>
+				<ng-template ngbTabTitle><i class="far fa-address-card"></i> Contact and Basic Info</ng-template>
+				<ng-template ngbTabContent>
+					<app-contact></app-contact>
+				</ng-template>
+			</ngb-tab>
+		</ngb-tabset>
+	</div>
+	<div class="d-none d-print-block">
+		<div class="row">
+			<app-profile class="col-7"></app-profile>
+			<app-contact class="col-5"></app-contact>
+		</div>
+		<app-skills></app-skills>
+		<app-courses></app-courses>
+		<app-projects-md></app-projects-md>
+		<app-career-history></app-career-history>
+	</div>
 </div>

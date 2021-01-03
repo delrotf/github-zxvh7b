@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('tanny-del-rosario-resume-v2 App', () => {
+describe('tanny-del-rosario-resume-v3 App', () => {
   let page: AppPage;
 
   beforeEach(() => {

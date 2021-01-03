@@ -68,7 +68,10 @@ import { SesameMenuComponent } from "./sesame-menu/sesame-menu.component";
 import { InvoiceSystemComponent } from "./invoice-system/invoice-system.component";
 import { PillAwsComponent } from "./pills/pill-aws/pill-aws.component";
 import { RibbonComponent } from "./ribbon/ribbon.component";
-import { PillReactComponent } from './pills/pill-react/pill-react.component';
+import { PillReactComponent } from "./pills/pill-react/pill-react.component";
+import { WorkforceReportsClientComponent } from "./workforce-reports-client/workforce-reports-client.component";
+import { NiceIexIntegrationComponent } from './nice-iex-integration/nice-iex-integration.component';
+import { MyResumeV3Component } from './my-resume-v3/my-resume-v3.component';
 
 @NgModule({
   declarations: [
@@ -138,7 +141,10 @@ import { PillReactComponent } from './pills/pill-react/pill-react.component';
     InvoiceSystemComponent,
     PillAwsComponent,
     RibbonComponent,
-    PillReactComponent
+    PillReactComponent,
+    WorkforceReportsClientComponent,
+    NiceIexIntegrationComponent,
+    MyResumeV3Component
   ],
   imports: [BrowserModule, NgbModule.forRoot()],
   providers: [],

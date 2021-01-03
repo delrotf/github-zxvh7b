@@ -1,14 +1,14 @@
 .jumbotron {
-    margin-bottom: unset;
+  margin-bottom: unset;
 }
-
+/* 
 .print-icon {
     position: absolute;
     top: 30px;
     right: 40px;
     z-index: 800;
-}
+} */
 
 button img {
-    max-width: 40px;
+  max-width: 40px;
 }

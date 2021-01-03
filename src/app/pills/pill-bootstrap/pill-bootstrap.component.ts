@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pills-bootstrap',
-  templateUrl: './pills-bootstrap.component.html',
-  styleUrls: ['./pills-bootstrap.component.css']
+  selector: 'app-pill-bootstrap',
+  templateUrl: './pill-bootstrap.component.html',
+  styleUrls: ['./pill-bootstrap.component.css']
 })
-export class PillsBootstrapComponent implements OnInit {
+export class PillBootstrapComponent implements OnInit {
 
   constructor() { }
 

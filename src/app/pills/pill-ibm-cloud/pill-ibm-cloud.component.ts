@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pills-ibm-cloud',
-  templateUrl: './pills-ibm-cloud.component.html',
-  styleUrls: ['./pills-ibm-cloud.component.css']
+  selector: 'app-pill-ibm-cloud',
+  templateUrl: './pill-ibm-cloud.component.html',
+  styleUrls: ['./pill-ibm-cloud.component.css']
 })
-export class PillsIbmCloudComponent implements OnInit {
+export class PillIbmCloudComponent implements OnInit {
 
   constructor() { }
 

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pills-heroku',
-  templateUrl: './pills-heroku.component.html',
-  styleUrls: ['./pills-heroku.component.css']
+  selector: 'app-pill-heroku',
+  templateUrl: './pill-heroku.component.html',
+  styleUrls: ['./pill-heroku.component.css']
 })
-export class PillsHerokuComponent implements OnInit {
+export class PillHerokuComponent implements OnInit {
 
   constructor() { }
 

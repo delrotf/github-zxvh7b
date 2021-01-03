@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pills-jquery',
-  templateUrl: './pills-jquery.component.html',
-  styleUrls: ['./pills-jquery.component.css']
+  selector: 'app-pill-jquery',
+  templateUrl: './pill-jquery.component.html',
+  styleUrls: ['./pill-jquery.component.css']
 })
-export class PillsJqueryComponent implements OnInit {
+export class PillJqueryComponent implements OnInit {
 
   constructor() { }
 

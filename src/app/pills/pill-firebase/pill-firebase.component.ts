@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-pills-firebase',
-  templateUrl: './pills-firebase.component.html',
-  styleUrls: ['./pills-firebase.component.css']
+  selector: 'app-pill-firebase',
+  templateUrl: './pill-firebase.component.html',
+  styleUrls: ['./pill-firebase.component.css']
 })
-export class PillsFirebaseComponent implements OnInit {
+export class PillFirebaseComponent implements OnInit {
 
   constructor() { }
 

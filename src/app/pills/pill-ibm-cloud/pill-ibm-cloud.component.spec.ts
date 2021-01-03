@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsIbmCloudComponent } from './pills-ibm-cloud.component';
+import { PillIbmCloudComponent } from './pill-ibm-cloud.component';
 
-describe('PillsIbmCloudComponent', () => {
-  let component: PillsIbmCloudComponent;
-  let fixture: ComponentFixture<PillsIbmCloudComponent>;
+describe('PillIbmCloudComponent', () => {
+  let component: PillIbmCloudComponent;
+  let fixture: ComponentFixture<PillIbmCloudComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsIbmCloudComponent ]
+      declarations: [ PillIbmCloudComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsIbmCloudComponent);
+    fixture = TestBed.createComponent(PillIbmCloudComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

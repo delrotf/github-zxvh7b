@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsPhpComponent } from './pills-php.component';
+import { PillPhpComponent } from './pill-php.component';
 
-describe('PillsPhpComponent', () => {
-  let component: PillsPhpComponent;
-  let fixture: ComponentFixture<PillsPhpComponent>;
+describe('PillPhpComponent', () => {
+  let component: PillPhpComponent;
+  let fixture: ComponentFixture<PillPhpComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsPhpComponent ]
+      declarations: [ PillPhpComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsPhpComponent);
+    fixture = TestBed.createComponent(PillPhpComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

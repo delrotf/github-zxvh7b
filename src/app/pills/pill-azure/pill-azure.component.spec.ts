@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsAzureComponent } from './pills-azure.component';
+import { PillAzureComponent } from './pill-azure.component';
 
-describe('PillsAzureComponent', () => {
-  let component: PillsAzureComponent;
-  let fixture: ComponentFixture<PillsAzureComponent>;
+describe('PillAzureComponent', () => {
+  let component: PillAzureComponent;
+  let fixture: ComponentFixture<PillAzureComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsAzureComponent ]
+      declarations: [ PillAzureComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsAzureComponent);
+    fixture = TestBed.createComponent(PillAzureComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

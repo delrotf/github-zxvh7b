@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsJqueryComponent } from './pills-jquery.component';
+import { PillJqueryComponent } from './pill-jquery.component';
 
-describe('PillsJqueryComponent', () => {
-  let component: PillsJqueryComponent;
-  let fixture: ComponentFixture<PillsJqueryComponent>;
+describe('PillJqueryComponent', () => {
+  let component: PillJqueryComponent;
+  let fixture: ComponentFixture<PillJqueryComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsJqueryComponent ]
+      declarations: [ PillJqueryComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsJqueryComponent);
+    fixture = TestBed.createComponent(PillJqueryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

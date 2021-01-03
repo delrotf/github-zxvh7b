@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsHerokuComponent } from './pills-heroku.component';
+import { PillHerokuComponent } from './pill-heroku.component';
 
-describe('PillsHerokuComponent', () => {
-  let component: PillsHerokuComponent;
-  let fixture: ComponentFixture<PillsHerokuComponent>;
+describe('PillHerokuComponent', () => {
+  let component: PillHerokuComponent;
+  let fixture: ComponentFixture<PillHerokuComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsHerokuComponent ]
+      declarations: [ PillHerokuComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsHerokuComponent);
+    fixture = TestBed.createComponent(PillHerokuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

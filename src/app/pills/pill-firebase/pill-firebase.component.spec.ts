@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsFirebaseComponent } from './pills-firebase.component';
+import { PillFirebaseComponent } from './pill-firebase.component';
 
-describe('PillsFirebaseComponent', () => {
-  let component: PillsFirebaseComponent;
-  let fixture: ComponentFixture<PillsFirebaseComponent>;
+describe('PillFirebaseComponent', () => {
+  let component: PillFirebaseComponent;
+  let fixture: ComponentFixture<PillFirebaseComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsFirebaseComponent ]
+      declarations: [ PillFirebaseComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsFirebaseComponent);
+    fixture = TestBed.createComponent(PillFirebaseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

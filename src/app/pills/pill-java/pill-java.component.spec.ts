@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsJavaComponent } from './pills-java.component';
+import { PillJavaComponent } from './pill-java.component';
 
-describe('PillsJavaComponent', () => {
-  let component: PillsJavaComponent;
-  let fixture: ComponentFixture<PillsJavaComponent>;
+describe('PillJavaComponent', () => {
+  let component: PillJavaComponent;
+  let fixture: ComponentFixture<PillJavaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsJavaComponent ]
+      declarations: [ PillJavaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsJavaComponent);
+    fixture = TestBed.createComponent(PillJavaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

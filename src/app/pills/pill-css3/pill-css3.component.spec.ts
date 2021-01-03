@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PillsCss3Component } from './pills-css3.component';
+import { PillCss3Component } from './pill-css3.component';
 
-describe('PillsCss3Component', () => {
-  let component: PillsCss3Component;
-  let fixture: ComponentFixture<PillsCss3Component>;
+describe('PillCss3Component', () => {
+  let component: PillCss3Component;
+  let fixture: ComponentFixture<PillCss3Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PillsCss3Component ]
+      declarations: [ PillCss3Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PillsCss3Component);
+    fixture = TestBed.createComponent(PillCss3Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

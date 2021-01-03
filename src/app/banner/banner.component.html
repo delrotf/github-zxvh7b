@@ -1,47 +1,54 @@
-<a
-  class="print-icon d-sm-inline d-print-none text-muted"
-  href="#"
-  onclick="window.print()"
-  ><i class="fas fa-2x fa-print"></i
-></a>
+<a class="print-icon d-sm-inline d-print-none text-muted" href="#"
+	onclick="window.print()"><i class="fas fa-2x fa-print"></i> Print</a>
 <div class="jumbotron jumbotron-fluid card mt-2 pb-4">
-  <h1 class="display-4 text-center">Tanny del Rosario</h1>
-  <h6 class="lead text-center">Architect/ Engineer/ Designer/ Developer</h6>
-  <ul class=" list-unstyled text-center">
-    <li>Team/ Tech Lead</li>
-    <li>Fullstack Developer</li>
-    <li>Java Developer (Java SE, Java EE, Spring)</li>
-    <li>Cloud Application Developer (IBM Cloud (Bluemix), Google Firebase)</li>
-    <li>Frontend Developer (HTML5, CSS3, Javascript, Angular)</li>
-    <li>Backend Developer (Java EE, Spring, NodeJs)</li>
-    <li>MEAN Developer (MongoDb, ExpressJs, Angular, NodeJs)</li>
-    <li class="lead mt-2 badge-light text-capitalize font-italic">
-      22 years of experience!
-    </li>
-    <!-- <app-ribbon></app-ribbon> -->
-  </ul>
-  <div class="btn-group align-self-end px-4">
-    <a
-      class="btn btn-light d-none d-print-inline-block"
-      href="https://tanny-del-rosario-resume-v2.firebaseapp.com/"
-      role="button"
-      ><i class="fas fa-user"></i> Online Resume</a
-    >
-    <a class="btn btn-light" href="tel:+639159448544" role="button"
-      ><i class="fas fa-mobile"></i> Mobile</a
-    >
-    <a
-      class="btn btn-light"
-      href="mailto:delrosariotanny@gmail.com"
-      role="button"
-      ><i class="far fa-envelope"></i> eMail</a
-    >
-    <a
-      class="btn btn-light"
-      href="https://www.facebook.com/messages/t/tanny.delrosario/"
-      target="_blank"
-      role="button"
-      ><i class="fab fa-facebook-messenger"></i> Message</a
-    >
-  </div>
+	<h1 class="display-4 text-center">Tanny del Rosario</h1>
+	<h6 class="lead text-center">Architect/ Engineer/ Designer/ Developer</h6>
+	<ul class=" list-unstyled text-center">
+		<li>Team/ Tech Lead</li>
+		<li>Fullstack Developer</li>
+		<li>Java Developer:</li>
+		<li class="mb-2">
+			<app-pill-java category="EE"></app-pill-java>
+			<app-pill-java category="SE"></app-pill-java>
+			<app-pill-spring></app-pill-spring>
+		</li>
+		<li>Backend Developer:</li>
+		<li class="mb-2">
+			<app-pill-java category="EE"></app-pill-java>
+			<app-pill-spring></app-pill-spring>
+			<app-pill-node-js></app-pill-node-js>
+		</li>
+		<li>Frontend Developer:</li>
+		<li class="mb-2">
+			<app-pill-html5></app-pill-html5>
+			<app-pill-css3></app-pill-css3>
+			<app-pill-js></app-pill-js>
+			<app-pill-angular></app-pill-angular>
+			<app-pill-react></app-pill-react>
+			<app-pill-jquery></app-pill-jquery>
+			<app-pill-bootstrap></app-pill-bootstrap>
+		</li>
+		<li>Cloud Application Developer:</li>
+		<li class="mb-2">
+			<app-pill-aws></app-pill-aws>
+			<app-pill-ibm-cloud></app-pill-ibm-cloud>
+			<app-pill-firebase></app-pill-firebase>
+			<app-pill-heroku></app-pill-heroku>
+			<app-pill-azure></app-pill-azure>
+		</li>
+		<li>MEAN Developer (MongoDb, ExpressJs, Angular, NodeJs)</li>
+		<li class="lead mt-2 badge-light text-capitalize font-italic">
+			{{yearsOfExperience}} years of experience!
+		</li>
+		<!-- <app-ribbon></app-ribbon> -->
+	</ul>
+	<div class="btn-group align-self-end px-4">
+		<a class="btn btn-light d-none d-print-inline-block" href="https://tanny-del-rosario-resume-v2.firebaseapp.com/"
+			role="button"><i class="fas fa-user"></i> Online Resume</a>
+		<a class="btn btn-light" href="tel:+639159448544" role="button"><i class="fas fa-mobile"></i> Mobile</a>
+		<a class="btn btn-light" href="mailto:delrosariotanny@gmail.com" role="button"><i class="far fa-envelope"></i>
+			eMail</a>
+		<a class="btn btn-light" href="https://www.facebook.com/messages/t/tanny.delrosario/" target="_blank"
+			role="button"><i class="fab fa-facebook-messenger"></i> Message</a>
+	</div>
 </div>

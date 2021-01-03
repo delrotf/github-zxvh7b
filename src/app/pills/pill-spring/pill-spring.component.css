@@ -1,9 +1,8 @@
 span.badge {
-    background-color: green;
-    border-color: green;
-    font-size: unset;
-    line-height: unset;
-    font-weight: unset;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  background-color: green;
+  border-color: green;
+  font-size: unset;
+  line-height: unset;
+  font-weight: unset;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }

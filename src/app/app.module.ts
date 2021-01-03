@@ -68,6 +68,7 @@ import { SesameMenuComponent } from "./sesame-menu/sesame-menu.component";
 import { InvoiceSystemComponent } from "./invoice-system/invoice-system.component";
 import { PillAwsComponent } from "./pills/pill-aws/pill-aws.component";
 import { RibbonComponent } from "./ribbon/ribbon.component";
+import { PillReactComponent } from './pills/pill-react/pill-react.component';
 
 @NgModule({
   declarations: [
@@ -136,7 +137,8 @@ import { RibbonComponent } from "./ribbon/ribbon.component";
     SesameMenuComponent,
     InvoiceSystemComponent,
     PillAwsComponent,
-    RibbonComponent
+    RibbonComponent,
+    PillReactComponent
   ],
   imports: [BrowserModule, NgbModule.forRoot()],
   providers: [],

@@ -1,14 +1,14 @@
-import { AppPage } from './app.po';
+import { AppPage } from "./app.po";
 
-describe('tanny-del-rosario-resume-v3 App', () => {
+describe("tanny-del-rosario-resume-v3 App", () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it("should display welcome message", () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual("Welcome to app!");
   });
 });

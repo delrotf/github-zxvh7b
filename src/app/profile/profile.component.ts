@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 import { environment } from "../../environments/environment";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: "app-profile",
@@ -9,6 +10,8 @@ import { environment } from "../../environments/environment";
 })
 export class ProfileComponent implements OnInit {
   yearsOfExperience: number;
+
+  faUser = faUser;
 
   constructor(private modalService: NgbModal) {}
 

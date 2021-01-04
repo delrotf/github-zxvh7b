@@ -1,5 +1,6 @@
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Component, OnInit } from '@angular/core';
+import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-career-history',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./career-history.component.css']
 })
 export class CareerHistoryComponent implements OnInit {
+  faUserTie = faUserTie
 
   constructor(private modalService: NgbModal) { }
 

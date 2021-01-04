@@ -1,6 +1,13 @@
 import { Component, OnInit } from "@angular/core";
 import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
 import { environment } from "../../environments/environment";
+import {
+  faPrint,
+  faMobileAlt,
+  faEnvelope,
+  faUser
+} from "@fortawesome/free-solid-svg-icons";
+import { faFacebookMessenger } from "@fortawesome/free-brands-svg-icons/faFacebookMessenger";
 
 @Component({
   selector: "app-banner",
@@ -9,6 +16,11 @@ import { environment } from "../../environments/environment";
 })
 export class BannerComponent implements OnInit {
   yearsOfExperience: number;
+  faPrint = faPrint;
+  faMobileAlt = faMobileAlt;
+  faEnvelope = faEnvelope;
+  faFacebookMessenger = faFacebookMessenger;
+  faUser = faUser;
 
   constructor(private modalService: NgbModal) {}
 

@@ -70,8 +70,9 @@ import { PillAwsComponent } from "./pills/pill-aws/pill-aws.component";
 import { RibbonComponent } from "./ribbon/ribbon.component";
 import { PillReactComponent } from "./pills/pill-react/pill-react.component";
 import { WorkforceReportsClientComponent } from "./workforce-reports-client/workforce-reports-client.component";
-import { NiceIexIntegrationComponent } from './nice-iex-integration/nice-iex-integration.component';
-import { MyResumeV3Component } from './my-resume-v3/my-resume-v3.component';
+import { NiceIexIntegrationComponent } from "./nice-iex-integration/nice-iex-integration.component";
+import { MyResumeV3Component } from "./my-resume-v3/my-resume-v3.component";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 @NgModule({
   declarations: [
@@ -146,7 +147,7 @@ import { MyResumeV3Component } from './my-resume-v3/my-resume-v3.component';
     NiceIexIntegrationComponent,
     MyResumeV3Component
   ],
-  imports: [BrowserModule, NgbModule.forRoot()],
+  imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
 })

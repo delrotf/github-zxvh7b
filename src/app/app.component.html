@@ -4,7 +4,9 @@
 		<ngb-tabset type="pills" justify="justified" (tabChange)="onTabChange()">
 			<!-- <ngb-tab title="About"> -->
 			<ngb-tab>
-				<ng-template ngbTabTitle><fa-icon [icon]="faUser"></fa-icon> About</ng-template>
+				<ng-template ngbTabTitle>
+					<fa-icon [icon]="faUser"></fa-icon> About
+				</ng-template>
 				<ng-template ngbTabContent>
 					<app-profile></app-profile>
 					<app-skills></app-skills>
@@ -21,13 +23,17 @@
 				</ng-template>
 			</ngb-tab>
 			<ngb-tab>
-				<ng-template ngbTabTitle><fa-icon [icon]="faUserTie"></fa-icon> Employment History</ng-template>
+				<ng-template ngbTabTitle>
+					<fa-icon [icon]="faUserTie"></fa-icon> Employment History
+				</ng-template>
 				<ng-template ngbTabContent>
 					<app-career-history></app-career-history>
 				</ng-template>
 			</ngb-tab>
 			<ngb-tab>
-				<ng-template ngbTabTitle><fa-icon [icon]="faAddressCard"></fa-icon> Contact and Basic Info</ng-template>
+				<ng-template ngbTabTitle>
+					<fa-icon [icon]="faAddressCard"></fa-icon> Contact and Basic Info
+				</ng-template>
 				<ng-template ngbTabContent>
 					<app-contact></app-contact>
 				</ng-template>

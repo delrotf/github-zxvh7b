@@ -73,6 +73,7 @@ import { WorkforceReportsClientComponent } from "./workforce-reports-client/work
 import { NiceIexIntegrationComponent } from "./nice-iex-integration/nice-iex-integration.component";
 import { MyResumeV3Component } from "./my-resume-v3/my-resume-v3.component";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { Covid19DailyComponent } from './covid19-daily/covid19-daily.component';
 
 @NgModule({
   declarations: [
@@ -145,7 +146,8 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     PillReactComponent,
     WorkforceReportsClientComponent,
     NiceIexIntegrationComponent,
-    MyResumeV3Component
+    MyResumeV3Component,
+    Covid19DailyComponent
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

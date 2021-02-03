@@ -74,6 +74,7 @@ import { NiceIexIntegrationComponent } from "./nice-iex-integration/nice-iex-int
 import { MyResumeV3Component } from "./my-resume-v3/my-resume-v3.component";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { Covid19DailyComponent } from './covid19-daily/covid19-daily.component';
+import { ReactTypingTrainerComponent } from './react-typing-trainer/react-typing-trainer.component';
 
 @NgModule({
   declarations: [
@@ -147,7 +148,8 @@ import { Covid19DailyComponent } from './covid19-daily/covid19-daily.component';
     WorkforceReportsClientComponent,
     NiceIexIntegrationComponent,
     MyResumeV3Component,
-    Covid19DailyComponent
+    Covid19DailyComponent,
+    ReactTypingTrainerComponent
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

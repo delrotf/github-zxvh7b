@@ -1,67 +1,83 @@
 <div class="jumbotron jumbotron-fluid card mt-2 pb-4">
-	<h1 class="display-4 text-center">Tanny del Rosario</h1>
-	<h6 class="lead text-center">Architect/ Engineer/ Designer/ Developer</h6>
-	<ul class=" list-unstyled text-center">
-		<li>Team/ Tech Lead</li>
-		<li>Fullstack Developer</li>
-		<li>Java Developer:</li>
-		<li class="mb-2">
-			<app-pill-java category="EE"></app-pill-java>
-			<app-pill-java category="SE"></app-pill-java>
-			<app-pill-spring></app-pill-spring>
-		</li>
-		<li>Backend Developer:</li>
-		<li class="mb-2">
-			<app-pill-java category="EE"></app-pill-java>
-			<app-pill-spring></app-pill-spring>
-			<app-pill-node-js></app-pill-node-js>
-		</li>
-		<li>Frontend Developer:</li>
-		<li class="mb-2">
-			<app-pill-html5></app-pill-html5>
-			<app-pill-css3></app-pill-css3>
-			<app-pill-js></app-pill-js>
-			<app-pill-angular></app-pill-angular>
-			<app-pill-react></app-pill-react>
-			<app-pill-jquery></app-pill-jquery>
-			<app-pill-bootstrap></app-pill-bootstrap>
-		</li>
-		<li>Cloud Application Developer:</li>
-		<li class="mb-2">
-			<app-pill-aws></app-pill-aws>
-			<app-pill-ibm-cloud></app-pill-ibm-cloud>
-			<app-pill-firebase></app-pill-firebase>
-			<app-pill-heroku></app-pill-heroku>
-			<app-pill-azure></app-pill-azure>
-		</li>
-		<li>MEAN Developer (MongoDb, ExpressJs, Angular, NodeJs)</li>
-		<li class="lead mt-5 badge-light text-capitalize font-italic">
-			{{yearsOfExperience}} years of experience!
-		</li>
-		<!-- <app-ribbon></app-ribbon> -->
-	</ul>
-	<div class="d-flex justify-content-between align-items-end px-4">
-		<div>
-			<span class="text-muted">Updated: 202102</span>
-		</div>
-		<a class="print-icon d-sm-inline d-print-none text-muted" href="#" onclick="window.print()">
-			<fa-icon [icon]="faPrint"></fa-icon> Print
-		</a>
-		<div class="btn-group">
-			<a class="btn btn-light d-none d-print-inline-block" href="https://delrotf-resume.web.app/" role="button">
-				<fa-icon [icon]="faUser"></fa-icon> Online Resume
-			</a>
-			<a class="btn btn-light" href="tel:+639159448544" role="button">
-				<fa-icon [icon]="faMobileAlt"></fa-icon> Mobile
-			</a>
-			<a class="btn btn-light" href="mailto:delrosariotanny@gmail.com" role="button">
-				<fa-icon [icon]="faEnvelope"></fa-icon>
-				eMail
-			</a>
-			<a class="btn btn-light" href="https://www.facebook.com/messages/t/tanny.delrosario/" target="_blank"
-				role="button">
-				<fa-icon [icon]="faFacebookMessenger"></fa-icon> Message
-			</a>
-		</div>
-	</div>
+  <h1 class="display-4 text-center">Tanny del Rosario</h1>
+  <h6 class="lead text-center">Architect/Engineer/Designer/Developer/Lead</h6>
+  <ul class="list-unstyled text-center">
+    <li>Full Stack Developer:</li>
+    <li class="mb-2">
+      <app-pill-java category="EE"></app-pill-java>
+      <app-pill-spring></app-pill-spring>
+      <app-pill-next-js></app-pill-next-js>
+      <app-pill-node-js></app-pill-node-js>
+    </li>
+    <li class="mb-2">
+      <app-pill-html5></app-pill-html5>
+      <app-pill-css3></app-pill-css3>
+      <app-pill-js></app-pill-js>
+      <app-pill-angular></app-pill-angular>
+      <app-pill-react></app-pill-react>
+      <app-pill-jquery></app-pill-jquery>
+      <app-pill-bootstrap></app-pill-bootstrap>
+    </li>
+    <li>Cloud Application Developer:</li>
+    <li class="mb-2">
+      <app-pill-aws></app-pill-aws>
+      <app-pill-ibm-cloud></app-pill-ibm-cloud>
+      <app-pill-firebase></app-pill-firebase>
+      <app-pill-heroku></app-pill-heroku>
+      <app-pill-azure></app-pill-azure>
+    </li>
+    <li
+      class="
+        lead
+        mt-5
+        badge-light
+        text-capitalize
+        font-italic
+        d-none d-print-block
+      "
+    >
+      {{ yearsOfExperience }} years of experience!
+    </li>
+  </ul>
+  <app-ribbon></app-ribbon>
+  <div class="d-flex justify-content-between align-items-end px-4">
+    <div>
+      <span class="text-muted">Updated: {{ updateDate }}</span>
+    </div>
+    <a
+      class="print-icon d-sm-inline d-print-none text-muted"
+      href="#"
+      onclick="window.print()"
+    >
+      <fa-icon [icon]="faPrint"></fa-icon> Print
+    </a>
+    <div class="btn-group">
+      <a
+        class="btn btn-light d-none d-print-inline-block"
+        href="https://delrotf-resume.web.app/"
+        role="button"
+      >
+        <fa-icon [icon]="faUser"></fa-icon> Online Resume
+      </a>
+      <a class="btn btn-light" href="tel:+639159448544" role="button">
+        <fa-icon [icon]="faMobileAlt"></fa-icon> Mobile
+      </a>
+      <a
+        class="btn btn-light"
+        href="mailto:delrosariotanny@gmail.com"
+        role="button"
+      >
+        <fa-icon [icon]="faEnvelope"></fa-icon>
+        eMail
+      </a>
+      <a
+        class="btn btn-light"
+        href="https://www.facebook.com/messages/t/tanny.delrosario/"
+        target="_blank"
+        role="button"
+      >
+        <fa-icon [icon]="faFacebookMessenger"></fa-icon> Message
+      </a>
+    </div>
+  </div>
 </div>

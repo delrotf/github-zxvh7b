@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-resume-v3.component.css']
 })
 export class MyResumeV3Component implements OnInit {
+  url: string
 
   constructor() { }
 
   ngOnInit() {
+    this.url = 'https://delrotf-resume.web.app/'
   }
 
 }

@@ -6,4 +6,5 @@
 export const environment = {
   production: false,
   yearsOfExperience: 25,
+  updateDate: 202311,
 };

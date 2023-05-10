@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sesame-menu.component.css']
 })
 export class SesameMenuComponent implements OnInit {
+  url: string;
 
   constructor() { }
 
   ngOnInit() {
+    this.url = 'https://www.sesame.menu/'
   }
 
 }

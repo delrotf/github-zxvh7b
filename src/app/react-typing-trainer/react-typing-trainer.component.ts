@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./react-typing-trainer.component.css']
 })
 export class ReactTypingTrainerComponent implements OnInit {
-
+  url: string
   constructor() { }
 
   ngOnInit() {
+    this.url = 'https://react-typing-trainer.stackblitz.io/'
   }
 
 }

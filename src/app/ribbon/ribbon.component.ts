@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-ribbon',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ribbon.component.css']
 })
 export class RibbonComponent implements OnInit {
-
+  yearsOfExperience: number;
+  
   constructor() { }
 
   ngOnInit() {
+    this.yearsOfExperience = environment.yearsOfExperience;
   }
+
 
 }

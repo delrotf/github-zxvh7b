@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-resume-website.component.css']
 })
 export class MyResumeWebsiteComponent implements OnInit {
+  url: string
 
   constructor() { }
 
   ngOnInit() {
+    this.url = 'https://tanny-del-rosario-resume.firebaseapp.com/'
   }
 
 }

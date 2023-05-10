@@ -64,3 +64,14 @@ Small devices (landscape phones, 576px and up) */
     font-size: 1rem;
   }
 }
+
+@media print {
+  .exposedlink {
+      text-decoration: none;
+  }
+  .exposedlink:after {
+      content: " (" attr(href) ") ";
+      font-size: 0.8em;
+      font-weight: normal;
+  }
+}

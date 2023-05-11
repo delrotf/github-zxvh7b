@@ -1,22 +1,26 @@
-import { Component, OnInit } from "@angular/core";
-import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
-import { environment } from "../../environments/environment";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { DataService } from '../data.service';
 
 @Component({
-  selector: "app-profile",
-  templateUrl: "./profile.component.html",
-  styleUrls: ["./profile.component.css"]
+  selector: 'app-profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.css'],
+  providers: [DataService],
 })
 export class ProfileComponent implements OnInit {
   yearsOfExperience: number;
 
   faUser = faUser;
 
-  constructor(private modalService: NgbModal) {}
+  constructor(
+    private modalService: NgbModal,
+    private dataService: DataService
+  ) {}
 
   ngOnInit() {
-    this.yearsOfExperience = environment.yearsOfExperience;
+    this.yearsOfExperience = this.dataService.yearsOfExperience;
   }
 
   open(content) {

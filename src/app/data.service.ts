@@ -2,13 +2,15 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class DataService {
-  constructor() {}
+  years: number;
 
-  get yearsOfExperience() {
+  constructor() {
     let since = 1998;
     let currentYear = new Date().getFullYear();
-    let yearsOfExperience = currentYear - givenYear;
+    this.years = currentYear - since;
+  }
 
-    return yearsOfExperience;
+  get yearsOfExperience() {
+    return this.years;
   }
 }

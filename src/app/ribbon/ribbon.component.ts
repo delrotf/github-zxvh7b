@@ -1,19 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from '../../environments/environment';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-ribbon',
   templateUrl: './ribbon.component.html',
-  styleUrls: ['./ribbon.component.css']
+  styleUrls: ['./ribbon.component.css'],
+  providers: [DataService],
 })
 export class RibbonComponent implements OnInit {
   yearsOfExperience: number;
-  
-  constructor() { }
+
+  constructor(private dataService: DataService) {}
 
   ngOnInit() {
-    this.yearsOfExperience = environment.yearsOfExperience;
+    this.yearsOfExperience = this.dataService.yearsOfExperience;
   }
-
-
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { environment } from '../../environments/environment';
+import { DataService } from '../data.service';
 import {
   faPrint,
   faMobileAlt,
@@ -13,6 +14,7 @@ import { faFacebookMessenger } from '@fortawesome/free-brands-svg-icons/faFacebo
   selector: 'app-banner',
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css'],
+  providers: [DataService],
 })
 export class BannerComponent implements OnInit {
   yearsOfExperience: number;
@@ -23,10 +25,13 @@ export class BannerComponent implements OnInit {
   faFacebookMessenger = faFacebookMessenger;
   faUser = faUser;
 
-  constructor(private modalService: NgbModal) {}
+  constructor(
+    private modalService: NgbModal,
+    private dataService: DataService
+  ) {}
 
   ngOnInit() {
-    this.yearsOfExperience = environment.yearsOfExperience;
+    this.yearsOfExperience = this.dataService.yearsOfExperience;
     this.updateDate = environment.updateDate;
   }
 

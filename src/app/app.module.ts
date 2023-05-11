@@ -76,6 +76,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { Covid19DailyComponent } from './covid19-daily/covid19-daily.component';
 import { ReactTypingTrainerComponent } from './react-typing-trainer/react-typing-trainer.component';
 import { PillNextJsComponent } from './pills/pill-next-js/pill-next-js.component';
+import { DasComponent } from './das/das.component';
 
 @NgModule({
   declarations: [
@@ -152,6 +153,7 @@ import { PillNextJsComponent } from './pills/pill-next-js/pill-next-js.component
     Covid19DailyComponent,
     ReactTypingTrainerComponent,
     PillNextJsComponent,
+    DasComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

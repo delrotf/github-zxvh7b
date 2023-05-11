@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-@import "~bootstrap/dist/css/bootstrap.min.css";
-@import "~font-awesome/css/font-awesome.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.css';
 .nav-tabs,
 .nav-pills {
   position: sticky;
@@ -66,18 +66,18 @@ Small devices (landscape phones, 576px and up) */
 }
 
 @media print {
-  .exposedlink {
-      text-decoration: none;
+  a {
+    text-decoration: none;
   }
   .exposedlink:after {
-      content: " (" attr(href) ") ";
-      font-size: 0.8em;
-      font-weight: normal;
+    content: ' (' attr(href) ') ';
+    font-size: 0.8em;
+    font-weight: normal;
   }
 }
 
 abbr:after {
-  content: " (" attr(title) ") ";
+  content: ' (' attr(title) ') ';
   font-size: 0.8em;
   font-weight: normal;
 }

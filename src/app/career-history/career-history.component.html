@@ -7,7 +7,37 @@
     <ol class="list-history px-4" reversed>
       <li>
         <article class="article-history-item">
-          <h3>Software Developer</h3>
+          <ng-template #isd let-c="close" let-d="dismiss">
+            <div class="modal-header">
+              <h4 class="modal-title">IBM Solutions Delivery, Inc. COE</h4>
+              <button
+                type="button"
+                class="close"
+                aria-label="Close"
+                (click)="d('Cross click')"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://raw.githubusercontent.com/delrotf/resume-angular/master/src/assets/cambria-coe.png"
+                width="100%"
+              />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                (click)="c('Close click')"
+              >
+                Close
+              </button>
+            </div>
+          </ng-template>
+          <button class="btn btn-link p-0" (click)="open(isd)">
+            <h3>Senior Developer</h3>
+          </button>
           <h6>Cambria Philippines</h6>
           <p>
             <span class="period">2021/04-2023/02;</span>
@@ -23,13 +53,48 @@
       </li>
       <li>
         <article class="article-history-item">
-          <h3>Software Engineer / Full Stack Java Developer</h3>
+          <ng-template #isd let-c="close" let-d="dismiss">
+            <div class="modal-header">
+              <h4 class="modal-title">IBM Solutions Delivery, Inc. COE</h4>
+              <button
+                type="button"
+                class="close"
+                aria-label="Close"
+                (click)="d('Cross click')"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="https://raw.githubusercontent.com/delrotf/resume-angular/master/src/assets/wonders-coe.png"
+                width="100%"
+              />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-outline-dark"
+                (click)="c('Close click')"
+              >
+                Close
+              </button>
+            </div>
+          </ng-template>
+          <button class="btn btn-link p-0" (click)="open(isd)">
+            <h3>Software Engineer / Full Stack Java Developer</h3>
+          </button>
           <h6>Wonders Corp.</h6>
           <p>
-            <span class="period">2018/05-2021/04;</span>
+            <span class="period">2019/02-2021/05;</span>
             <span class="location">Philippines</span>
           </p>
-          <ul class="list-history-detail">
+          <h6>KMC Solutions</h6>
+          <p>
+            <span class="period">2018/05-2019/02;</span>
+            <span class="location">Philippines</span>
+          </p>
+                    <ul class="list-history-detail">
             <li>
               Did full stack development using Angular, React, and jQuery for
               front-end; using Spring for back-end;

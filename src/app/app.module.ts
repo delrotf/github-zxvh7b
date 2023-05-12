@@ -77,6 +77,7 @@ import { Covid19DailyComponent } from './covid19-daily/covid19-daily.component';
 import { ReactTypingTrainerComponent } from './react-typing-trainer/react-typing-trainer.component';
 import { PillNextJsComponent } from './pills/pill-next-js/pill-next-js.component';
 import { DasComponent } from './das/das.component';
+import { PhFlagComponent } from './ph-flag/ph-flag.component';
 
 @NgModule({
   declarations: [
@@ -154,6 +155,7 @@ import { DasComponent } from './das/das.component';
     ReactTypingTrainerComponent,
     PillNextJsComponent,
     DasComponent,
+    PhFlagComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

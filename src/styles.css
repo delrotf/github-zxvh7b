@@ -81,3 +81,7 @@ abbr:after {
   font-size: 0.8em;
   font-weight: normal;
 }
+
+body {
+  background-color: lightslategray;
+}

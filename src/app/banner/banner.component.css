@@ -12,3 +12,7 @@
 button img {
   max-width: 40px;
 }
+
+small {
+  font-size: 50%;
+}

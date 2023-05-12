@@ -1,90 +1,180 @@
 <article class="article-profile card my-2">
-	<h2 class="card-header"><fa-icon [icon]="faUser"></fa-icon> Profile</h2>
-	<div class="card-body">
-		<ul class="list-profile striped-list px-4">
-			<ng-template #ibmCloud let-c="close" let-d="dismiss">
-				<div class="modal-header">
-					<h4 class="modal-title">IBM Certified Cloud Application Developer - Cloud Platform V1</h4>
-					<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-                <span aria-hidden="true">&times;</span>
-              </button>
-				</div>
-				<div class="modal-body">
-					<!-- <img src="../../assets/cloudbadge.JPG" width="100%"> -->
-					<img src="https://github.com/delrotf/tanny-del-rosario-resume-v2/blob/master/src/assets/cloudbadge.JPG?raw=true" width="100%">
-                </div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
-					</div>
-			</ng-template>
-			<li><button class="btn btn-link p-0" (click)="open(ibmCloud)">IBM Certified Cloud Application Developer V1;</button>
-			</li>
-			<ng-template #scwcd let-c="close" let-d="dismiss">
-				<div class="modal-header">
-					<h4 class="modal-title">Sun Certified Web Component Developer for J2EE 1.4</h4>
-					<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-                <span aria-hidden="true">&times;</span>
-              </button>
-				</div>
-				<div class="modal-body">
-					<!-- <img src="../../assets/SCWCD.png" width="100%"> -->
-					<img src="https://github.com/delrotf/tanny-del-rosario-resume-v2/blob/master/src/assets/SCWCD.png?raw=true" width="100%">
-                </div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
-					</div>
-			</ng-template>
-			<li><button class="btn btn-link p-0" (click)="open(scwcd)">Sun Certified Web Component Developer for J2EE 1.4;</button>
-			</li>
-			<ng-template #scjp2 let-c="close" let-d="dismiss">
-				<div class="modal-header">
-					<h4 class="modal-title">Sun Certified Java 2 Programmer</h4>
-					<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-                <span aria-hidden="true">&times;</span>
-              </button>
-				</div>
-				<div class="modal-body">
-					<!-- <img src="../../assets/SCJP2.png" width="100%"> -->
-					<img src="https://github.com/delrotf/tanny-del-rosario-resume-v2/blob/master/src/assets/SCJP2.png?raw=true" width="100%">
-                </div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
-					</div>
-			</ng-template>
-			<li><button class="btn btn-link p-0" (click)="open(scjp2)">Sun Certified Java 2 Programmer;</button></li>
-			<ng-template #scjp1 let-c="close" let-d="dismiss">
-				<div class="modal-header">
-					<h4 class="modal-title">Sun Certified Java Programmer</h4>
-					<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-                <span aria-hidden="true">&times;</span>
-              </button>
-				</div>
-				<div class="modal-body">
-					<!-- <img src="../../assets/SCJP1.png" width="100%"> -->
-					<img src="https://github.com/delrotf/tanny-del-rosario-resume-v2/blob/master/src/assets/SCJP1.png?raw=true" width="100%">
-                </div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
-					</div>
-			</ng-template>
-			<li><button class="btn btn-link p-0" (click)="open(scjp1)">Sun Certified Java Programmer;</button></li>
-			<li><strong>{{yearsOfExperience}} years of work experience in enterprise/web application design and development using HTML, CSS, Javascript, Java and other technologies;</strong>
-			</li>
-			<li>5 years of Lead role experience;</li>
-			<li>Experienced in requirements gathering, analysis and design, coding, testing and debugging, and support;
-			</li>
-			<li>Software Architecting/Engineering;</li>
-			<li>Proficient in IBM WebSphere and Rational products such as WebSphere Portal Server, WebSphere Application
-				Server, WebSphere Rational Application Developer, Rational Team Concert, and Rational Software
-				Architect;</li>
-			<li>Instructor and facilitator in Java Bootcamps in IBM;</li>
-			<li>Conducted trainings for the Java programmer trainees;</li>
-			<li>Also conducted Java trainings in USA for professional certification of the students;</li>
-			<li>Graduate of Bachelor of Science in Computer Engineering;</li>
-			<li>Recognized as one of the Top Value Creators;</li>
-			<li>Was awarded the Award of Excellence for Outstanding Professional Initiative and Performance;</li>
-			<li>Was awarded the Service Level Excellence Award;</li>
-			<li>Six Sigma Green Belt.</li>
-		</ul>
-	</div>
+  <h2 class="card-header"><fa-icon [icon]="faUser"></fa-icon> Profile</h2>
+  <div class="card-body">
+    <ul class="list-profile striped-list px-4">
+      <ng-template #ibmCloud let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title">
+            IBM Certified Cloud Application Developer - Cloud Platform V1
+          </h4>
+          <button
+            type="button"
+            class="close"
+            aria-label="Close"
+            (click)="d('Cross click')"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img src="../../assets/cloudbadge.JPG" width="100%"> -->
+          <img
+            src="https://raw.githubusercontent.com/delrotf/resume-angular/master/src/assets/cloudbadge.jpg"
+            width="100%"
+          />
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            (click)="c('Close click')"
+          >
+            Close
+          </button>
+        </div>
+      </ng-template>
+      <li>
+        <button class="btn btn-link p-0" (click)="open(ibmCloud)">
+          IBM Certified Cloud Application Developer V1;
+        </button>
+      </li>
+      <ng-template #scwcd let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title">
+            Sun Certified Web Component Developer for J2EE 1.4
+          </h4>
+          <button
+            type="button"
+            class="close"
+            aria-label="Close"
+            (click)="d('Cross click')"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img src="../../assets/SCWCD.png" width="100%"> -->
+          <img
+            src="https://raw.githubusercontent.com/delrotf/resume-angular/master/src/assets/SCWCD.png?raw=true"
+            width="100%"
+          />
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            (click)="c('Close click')"
+          >
+            Close
+          </button>
+        </div>
+      </ng-template>
+      <li>
+        <button class="btn btn-link p-0" (click)="open(scwcd)">
+          Sun Certified Web Component Developer for J2EE 1.4;
+        </button>
+      </li>
+      <ng-template #scjp2 let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title">Sun Certified Java 2 Programmer</h4>
+          <button
+            type="button"
+            class="close"
+            aria-label="Close"
+            (click)="d('Cross click')"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img src="../../assets/SCJP2.png" width="100%"> -->
+          <img
+            src="https://raw.githubusercontent.com/delrotf/resume-angular/master/src/assets/SCJP2.png?raw=true"
+            width="100%"
+          />
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            (click)="c('Close click')"
+          >
+            Close
+          </button>
+        </div>
+      </ng-template>
+      <li>
+        <button class="btn btn-link p-0" (click)="open(scjp2)">
+          Sun Certified Java 2 Programmer;
+        </button>
+      </li>
+      <ng-template #scjp1 let-c="close" let-d="dismiss">
+        <div class="modal-header">
+          <h4 class="modal-title">Sun Certified Java Programmer</h4>
+          <button
+            type="button"
+            class="close"
+            aria-label="Close"
+            (click)="d('Cross click')"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- <img src="../../assets/SCJP1.png" width="100%"> -->
+          <img
+            src="https://raw.githubusercontent.com/delrotf/resume-angular/master/src/assets/SCJP1.png?raw=true"
+            width="100%"
+          />
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-outline-dark"
+            (click)="c('Close click')"
+          >
+            Close
+          </button>
+        </div>
+      </ng-template>
+      <li>
+        <button class="btn btn-link p-0" (click)="open(scjp1)">
+          Sun Certified Java Programmer;
+        </button>
+      </li>
+      <li>
+        <strong
+          >{{ yearsOfExperience }} years of work experience in enterprise/web
+          application design and development using HTML, CSS, Javascript, Java
+          and other technologies;</strong
+        >
+      </li>
+      <li>5 years of Lead role experience;</li>
+      <li>
+        Experienced in requirements gathering, analysis and design, coding,
+        testing and debugging, and support;
+      </li>
+      <li>Software Architecting/Engineering;</li>
+      <li>
+        Proficient in IBM WebSphere and Rational products such as WebSphere
+        Portal Server, WebSphere Application Server, WebSphere Rational
+        Application Developer, Rational Team Concert, and Rational Software
+        Architect;
+      </li>
+      <li>Instructor and facilitator in Java Bootcamps in IBM;</li>
+      <li>Conducted trainings for the Java programmer trainees;</li>
+      <li>
+        Also conducted Java trainings in USA for professional certification of
+        the students;
+      </li>
+      <li>Graduate of Bachelor of Science in Computer Engineering;</li>
+      <li>Recognized as one of the Top Value Creators;</li>
+      <li>
+        Was awarded the Award of Excellence for Outstanding Professional
+        Initiative and Performance;
+      </li>
+      <li>Was awarded the Service Level Excellence Award;</li>
+      <li>Six Sigma Green Belt.</li>
+    </ul>
+  </div>
 </article>

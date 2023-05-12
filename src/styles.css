@@ -67,7 +67,7 @@ Small devices (landscape phones, 576px and up) */
 
 @media print {
   a {
-    text-decoration: none;
+    text-decoration: none !important;
   }
   .exposedlink:after {
     content: ' (' attr(href) ') ';

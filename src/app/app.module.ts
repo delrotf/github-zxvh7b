@@ -78,6 +78,7 @@ import { ReactTypingTrainerComponent } from './react-typing-trainer/react-typing
 import { PillNextJsComponent } from './pills/pill-next-js/pill-next-js.component';
 import { DasComponent } from './das/das.component';
 import { PhFlagComponent } from './ph-flag/ph-flag.component';
+import { PillTypescriptComponent } from './pills/pill-typescript/pill-typescript.component';
 
 @NgModule({
   declarations: [
@@ -156,6 +157,7 @@ import { PhFlagComponent } from './ph-flag/ph-flag.component';
     PillNextJsComponent,
     DasComponent,
     PhFlagComponent,
+    PillTypescriptComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

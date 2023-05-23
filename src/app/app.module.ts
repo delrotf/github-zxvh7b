@@ -79,6 +79,7 @@ import { PillNextJsComponent } from './pills/pill-next-js/pill-next-js.component
 import { DasComponent } from './das/das.component';
 import { PhFlagComponent } from './ph-flag/ph-flag.component';
 import { PillTypescriptComponent } from './pills/pill-typescript/pill-typescript.component';
+import { PillReactNativeComponent } from './pills/pill-react-native/pill-react-native.component'
 
 @NgModule({
   declarations: [
@@ -158,6 +159,7 @@ import { PillTypescriptComponent } from './pills/pill-typescript/pill-typescript
     DasComponent,
     PhFlagComponent,
     PillTypescriptComponent,
+    PillReactNativeComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

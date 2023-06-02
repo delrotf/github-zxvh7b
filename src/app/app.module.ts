@@ -81,6 +81,7 @@ import { PhFlagComponent } from './ph-flag/ph-flag.component';
 import { PillTypescriptComponent } from './pills/pill-typescript/pill-typescript.component';
 import { PillReactNativeComponent } from './pills/pill-react-native/pill-react-native.component'
 import { PillPythonComponent } from './pills/pill-python/pill-python.component'
+import { PillTailwindCssComponent } from './pills/pill-tailwind-css/pill-tailwind-css.component'
 
 @NgModule({
   declarations: [
@@ -162,6 +163,7 @@ import { PillPythonComponent } from './pills/pill-python/pill-python.component'
     PillTypescriptComponent,
     PillReactNativeComponent,
     PillPythonComponent,
+    PillTailwindCssComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, NgbModule.forRoot()],
   providers: [],

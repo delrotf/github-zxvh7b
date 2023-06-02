@@ -1,5 +1,7 @@
 import { Component, ViewChild, ElementRef } from "@angular/core";
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { environment } from '../environments/environment';
+import { Title } from '@angular/platform-browser';
 import {
   faCalendarCheck,
   faUserTie,
@@ -21,7 +23,13 @@ export class AppComponent {
   faUserTie = faUserTie;
   faAddressCard = faAddressCard;
 
-  constructor() {}
+  constructor(private titleService: Title) {}
+
+  ngOnInit() {
+    const updateDate = environment.updateDate;
+    const pageTitle = `${updateDate} Resume of Tanny del Rosario`
+    this.titleService.setTitle(pageTitle)
+  }
 
   onTabChange() {
     window.scrollTo(0, this.tabset.nativeElement.offsetTop + 1);

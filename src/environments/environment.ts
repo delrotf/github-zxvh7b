@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  updateDate: 20230602,
+  updateDate: 20230605,
 };
